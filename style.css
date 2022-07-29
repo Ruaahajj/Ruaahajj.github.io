@@ -22,14 +22,14 @@ nav{
  text-align: center;
 }
 
-.navlinks ul li{
+navlinks ul li{
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
   position: relative;
 }
 
-.navlinks ul li a{
+navlinks ul li a{
   color: Ivory;
   text-decoration: none;
   font-size: 13px;
