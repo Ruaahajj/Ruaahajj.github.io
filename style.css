@@ -149,6 +149,7 @@ p{
 }
 
 .day1intro ul li{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 150;
+  color: slategray;
 }
