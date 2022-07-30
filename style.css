@@ -110,7 +110,7 @@ nav .faI {
 .abtme{
   width: 80%;
   margin: auto;
-  text-align: right;
+  text-align: left;
   padding-top: 100px;
 }
 h1{
@@ -124,4 +124,19 @@ p{
   font-weight: 300px;
   line-height: 22px;
   padding: 10px;
+}
+.info{
+  margin-top: 5%
+  display: flex;
+  justify-content: space-between;
+}
+
+.whatfab{
+  flex-basis: 31%;
+  background: #FFEFD5;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 28px;
+  box-sizing: border-box;
+
 }
