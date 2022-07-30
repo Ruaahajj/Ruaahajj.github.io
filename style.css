@@ -68,3 +68,39 @@ font-size: 13px
   font-size: 14px;
   color: slategray;
 }
+
+nav .faI {
+  display: none;
+}
+
+
+
+@media(max-width:700px) {
+  .text-box h1{
+    font-size: 20px;
+  }
+  .navlinks ul li{
+    display: block;
+  }
+  .navlinks{
+    position: absolute;
+    background: slategray;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: right;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .fa{
+    display: block;
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .navlinks ul{
+    padding: 30px;
+
+  }
+}

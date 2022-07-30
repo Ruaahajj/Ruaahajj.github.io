@@ -1,38 +1,46 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
+
     <meta charset="utf-8" width="device-width, initial-scale=1.0">
     <title> Ruaa's FAB guide</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap" rel="stylesheet">
-  </head>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+
 
   <body>
 
 <section class="header">
+
   <nav>
-     <div class="navlinks">
+     <div class="navlinks" id="navlinks2">
+         <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
         <ul>
 
           <li> <a href="#">ABOUT ME</a> </li>
           <li> <a href="">WHAT IS FAB?</a> </li>
-          <li> <a href="">FAB GUIDE</a> </li>
+          <li> <a href="">FAB 0 GUIDE</a> </li>
           <li> <a href="">RESOURCES</a> </li>
 
         </ul>
 
      </div>
+     <i class="fa-solid fa-bars" onclick="showMenu()"></i>
   </nav>
+        <div class="text-box">
 
-<div class="text-box">
-  <h1>HELLO WORLD</h1>
-  <p> bla bla med</p>
-<a href="#"> to know more</a>
-
-</div>
+        <h1>HELLO WORLD</h1>
+        <p> bla bla med</p>
+         <a href="#"> to know more</a>
+         
+        </div>
 
 
 </section>
@@ -55,8 +63,21 @@ My name is Ruaa.
 
 </p>
 
+<!-------JAVASCRIPT FOR TOGGLE MENU------>
+
+<script type="text/javascript">
+
+var navlinkss = document.getElementById('navlinks2');
+
+  function showMenu(){
+    navlinkss.style.right = "0"
+  }
+function hideMenu(){
+  navlinks2.style.right = "-200px"
+}
+
+</script>
+
 </body>
-
-
 
 </html>
