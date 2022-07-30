@@ -140,3 +140,15 @@ p{
   box-sizing: border-box;
 
 }
+
+                      /*------------DAY1---------*/
+
+.day1intro{
+  text-decoration: none;
+  text-align: center;
+}
+
+.day1intro ul li{
+  font-size: 40px;
+  font-weight: 200;
+}
