@@ -143,6 +143,9 @@ p{
 
                       /*------------INTRO (OBJECTIVES)---------*/
 
+h1{
+  text-align: center;
+}
 
 .objectives{
   margin-top: 5%;
@@ -150,10 +153,7 @@ p{
   justify-content: space-between;
 }
 
-h1{
-  font-size: 55px;
-  font-weight: 600;
-}
+
 
 .objectivet{
   flex-basis: 31%;
