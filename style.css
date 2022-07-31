@@ -168,5 +168,12 @@ p{
   margin-top: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
-  
+
+}
+
+.objectivet p{
+  text-align: center;
+  font-weight: 400px;
+  margin: 10px;
+
 }
