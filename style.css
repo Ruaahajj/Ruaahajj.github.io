@@ -143,10 +143,6 @@ p{
 
                       /*------------INTRO (OBJECTIVES)---------*/
 
-h1{
-  text-align: center;
-}
-
 .objectives{
   margin-top: 5%;
   display: flex;
@@ -162,7 +158,9 @@ h1{
   margin-top: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
-
+margin-bottom: 30px;
+position: relative;
+overflow: hidden;
 }
 
 p{
@@ -170,4 +168,8 @@ p{
   font-weight: 400px;
   margin: 10px;
 
+}
+
+.layer p{
+  text-align: center;
 }
