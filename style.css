@@ -143,17 +143,6 @@ p{
 
                       /*------------INTRO (OBJECTIVES)---------*/
 
-.day1intro{
-  text-decoration: none;
-  text-align: center;
-}
-
-.day1intro ul li{
-  font-size: 20px;
-  font-weight: 150;
-  color: slategray;
-
-}
 
 .objectives{
   margin-top: 5%;
@@ -161,9 +150,9 @@ p{
   justify-content: space-between;
 }
 
-.objectives h1{
-  text-align: center;
-  font-size: 100px;
+h1{
+  font-size: 55px;
+  font-weight: 600;
 }
 
 .objectivet{
@@ -176,7 +165,7 @@ p{
 
 }
 
-.objectivet p{
+p{
   text-align: center;
   font-weight: 400px;
   margin: 10px;
